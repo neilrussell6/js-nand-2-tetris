@@ -1,0 +1,30 @@
+{
+  "name": "js-nand-2-tetris",
+  "description": "A Javascript implementation of stuff from the Nand2Tetris course",
+  "keywords": [],
+  "version": "0.0.1",
+  "author": "Neil Russell <neilrussell6@gmail.com>",
+  "contributors": [
+    "Neil Russell <neilrussell6@gmail.com>"
+  ],
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "_test:spec": "mocha \"src/**/*.test.js\"",
+    "_test:dot": "npm run _test:spec -- --reporter dot",
+    "test": "npm run _test:spec",
+    "test:watch": "npm run _test:spec -- --watch",
+    "help": "package-json-help.js"
+  },
+  "engines": {
+    "npm": "=6.14.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "js-parametrize": "0.0.3",
+    "mocha": "^8.0.1",
+    "package-json-help": "0.0.10",
+    "ramda": "^0.27.0",
+    "sinon": "^9.0.2"
+  }
+}
